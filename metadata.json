@@ -1,0 +1,49 @@
+{
+  "name": "jorhett-testbox",
+  "version": "0.0.1",
+  "author": "Jo Rhett",
+  "license": "BSD-3-Clause",
+  "summary": "Tests for puppet functionality and best practices documentation.",
+  "summary": "Tests for puppet functionality and best practices documentation.",
+  "source": "https://github.com/jorhett/puppet-testbox",
+  "project_page": "https://github.com/jorhett/puppet-testbox",
+  "issues_url": "https://github.com/jorhett/puppet-testbox/issues",
+  "tags": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease":[ "6","7" ]
+    },
+    {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":[ "6","7" ]
+    },
+    {
+      "operatingsystem":"OracleLinux",
+      "operatingsystemrelease":[ "6","7" ]
+    },
+    {
+      "operatingsystem":"Scientific",
+      "operatingsystemrelease":[ "6","7" ]
+    },
+    {
+      "operatingsystem":"Debian",
+      "operatingsystemrelease":[ "6","7" ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "15.03","14.10", "14.04", "13.10", "13.04", "12.10", "12.04" ]
+    },
+    {
+      "operatingsystem": "FreeBSD",
+      "operatingsystemrelease": [ "9.3", "10.0" ]
+    }
+  ],
+  "requirements": [
+    { "name": "pe", "version_requirement": ">= 3.7.0" },
+    { "name": "puppet", "version_requirement": ">= 3.7.0" }
+  ],
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 3.2.0" }
+  ]
+}
